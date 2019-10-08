@@ -35,6 +35,11 @@ public class Messages {
         return "Your payslip has been generated: " + "\n" ;
     }
 
+    public String thankyouMessage() {
+        return "Thank you for using MYOB! ";
+    }
+
+
 
 
 

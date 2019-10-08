@@ -42,8 +42,6 @@ public class EmployeeDetails {
         this.payEndDate = payEndDate;
     }
 
-
-
     public String getName() {
         return name;
     }

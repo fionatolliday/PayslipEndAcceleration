@@ -16,15 +16,28 @@ public class PaySlipGenerator {
     }
 
 
-
     public void runPaySlip(){
         writer.write(messages.welcomeMessage());
-        reader.read(messages.requestName());
-        reader.read(messages.requestSurname());
-        reader.read(messages.requestSalary());
-        reader.read(messages.requestSuperRate());
-        reader.read(messages.requestPaymentStartDate());
-        reader.read(messages.requestPaymentEndDate());
+
+        String name = reader.read(messages.requestName());
+        String surname = reader.read(messages.requestSurname());
+        Double salary = Double.parseDouble(reader.read(messages.requestSalary()));
+        Float superRate = Float.parseFloat(reader.read(messages.requestSuperRate()));
+        String startDate = reader.read(messages.requestPaymentStartDate());
+        String endDate = reader.read(messages.requestPaymentEndDate());
         writer.write(messages.payslipGeneratedMessage());
+
+        writer.write("Name: " + name + surname);
+        writer.write("Gross Income: " );
+        writer.write("Income Tax: " );
+        writer.write("Net Income: " );
+        writer.write("Super: " + "\n");
+
+        writer.write(messages.thankyouMessage());
+
+        employee = new EmployeeDetails(name,surname, salary, superRate, startDate, endDate);
+
     }
 }
+
+
