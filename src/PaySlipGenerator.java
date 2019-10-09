@@ -1,4 +1,5 @@
 import Output.Messages;
+import calculator.GrossIncomeCalculator;
 import interfaces.ReaderInterface;
 import interfaces.WriterInterface;
 
@@ -9,6 +10,7 @@ public class PaySlipGenerator {
     private EmployeeDetails employee;
 
     private Messages messages = new Messages();
+    private GrossIncomeCalculator grossIncome = new GrossIncomeCalculator();
 
     public PaySlipGenerator(ReaderInterface reader, WriterInterface writer) {
         this.reader = reader;
@@ -28,7 +30,7 @@ public class PaySlipGenerator {
         writer.write(messages.payslipGeneratedMessage());
 
         writer.write("Name: " + name + surname);
-        writer.write("Gross Income: " );
+        writer.write("Gross Income: " + grossIncome.getGrossIncome(salary));
         writer.write("Income Tax: " );
         writer.write("Net Income: " );
         writer.write("Super: " + "\n");
