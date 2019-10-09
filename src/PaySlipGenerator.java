@@ -15,7 +15,7 @@ public class PaySlipGenerator {
 
     private Messages messages = new Messages();
     private GrossIncomeCalculator grossIncome = new GrossIncomeCalculator();
-    private IncomeTaxCalculator incomeTax = new IncomeTaxCalculator();
+    private IncomeTaxCalculator incomeTax = new IncomeTaxCalculator(new TaxBands());
     private NetIncomeCalculator netIncome = new NetIncomeCalculator();
     private SuperannuationCalculator superR = new SuperannuationCalculator();
 
