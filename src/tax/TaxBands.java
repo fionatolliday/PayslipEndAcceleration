@@ -2,70 +2,69 @@ package tax;
 
 public class TaxBands {
 
-    private String getTaxBand(double salary) {
+    private TaxBandEnums getTaxBand(double salary) {
         if (salary >= 0 && salary <= 19200) {
-            return "Tax band 1";
+            return TaxBandEnums.TAXBAND1;
         }
         if (salary >= 18201 && salary <= 37000) {
-            return "Tax band 2";
+            return TaxBandEnums.TAXBAND2;
         }
         if (salary >= 37001 && salary <= 87000) {
-            return "Tax band 3";
+            return TaxBandEnums.TAXBAND3;
         }
         if (salary >= 87001 && salary <= 180000) {
-            return "Tax band 4";
+            return TaxBandEnums.TAXBAND4;
         } else
-            return "Tax band 5";
+            return TaxBandEnums.TAXBAND5;
     }
 
 
     public int taxBandLumpSum(double salary) {
-        if (getTaxBand(salary) == "Tax band 1"){
-        return 0;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND1) {
+            return TaxBandEnums.TAXBAND1.lumpSum;
         }
-        if (getTaxBand(salary) == "Tax band 2"){
-            return 0;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND2) {
+            return TaxBandEnums.TAXBAND2.lumpSum;
         }
-        if (getTaxBand(salary) == "Tax band 3"){
-            return 3572;
+        if (getTaxBand(salary) ==  TaxBandEnums.TAXBAND3) {
+            return  TaxBandEnums.TAXBAND3.lumpSum;
         }
-        if (getTaxBand(salary) == "Tax band 4"){
-            return 19822;
-        }
-        else
-            return 54232;
+        if (getTaxBand(salary) ==  TaxBandEnums.TAXBAND4) {
+            return  TaxBandEnums.TAXBAND4.lumpSum;
+        } else
+            return  TaxBandEnums.TAXBAND5.lumpSum;
     }
 
     public double taxBandPercentage(double salary) {
-        if (getTaxBand(salary) == "Tax band 1") {
-            return 0;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND1) {
+            return TaxBandEnums.TAXBAND1.percentage;
         }
-        if (getTaxBand(salary) == "Tax band 2") {
-            return 0.19;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND2) {
+            return TaxBandEnums.TAXBAND2.percentage;
         }
-        if (getTaxBand(salary) == "Tax band 3") {
-            return 0.325;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND3) {
+            return TaxBandEnums.TAXBAND3.percentage;
         }
-        if (getTaxBand(salary) == "Tax band 4") {
-            return 0.37;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND4) {
+            return TaxBandEnums.TAXBAND4.percentage;
         } else
-            return 0.45;
+            return TaxBandEnums.TAXBAND5.percentage;
     }
 
     public double upperTaxBracket(double salary) {
-        if (getTaxBand(salary) == "Tax band 1") {
-            return 0;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND1) {
+            return TaxBandEnums.TAXBAND1.upperRange;
         }
-        if (getTaxBand(salary) == "Tax band 2") {
-            return 18200;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND2) {
+            return TaxBandEnums.TAXBAND2.upperRange;
         }
-        if (getTaxBand(salary) == "Tax band 3") {
-            return 37000;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND3) {
+            return TaxBandEnums.TAXBAND1.upperRange;
         }
-        if (getTaxBand(salary) == "Tax band 4") {
-            return 87000;
+        if (getTaxBand(salary) == TaxBandEnums.TAXBAND4) {
+            return TaxBandEnums.TAXBAND4.upperRange;
         } else
-            return 180000;
+            return TaxBandEnums.TAXBAND1.upperRange;
     }
 
 }
