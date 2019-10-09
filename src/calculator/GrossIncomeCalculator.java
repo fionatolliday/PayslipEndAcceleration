@@ -11,5 +11,3 @@ public class GrossIncomeCalculator {
 
 }
 
-
-//    gross income = 60,050 / 12 = 5,004.16666667 (round down) = 5,004
