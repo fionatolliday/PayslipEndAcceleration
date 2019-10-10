@@ -11,7 +11,6 @@ public class PaySlipGenerator {
 
     private ReaderInterface reader;
     private WriterInterface writer;
-    private EmployeeDetails employee;
 
     private Messages messages = new Messages();
     private GrossIncomeCalculator grossIncome = new GrossIncomeCalculator();
@@ -19,15 +18,15 @@ public class PaySlipGenerator {
     private NetIncomeCalculator netIncome = new NetIncomeCalculator();
     private SuperannuationCalculator superR = new SuperannuationCalculator();
 
+    EmployeeDetails employee;
+
+
     public PaySlipGenerator(ReaderInterface reader, WriterInterface writer) {
         this.reader = reader;
         this.writer = writer;
     }
 
-
-    public void runPaySlip(){
-        writer.write(messages.welcomeMessage());
-
+    public void getEmployeeDetails(){
         String name = reader.read(messages.requestName());
         String surname = reader.read(messages.requestSurname());
         double salary = Double.parseDouble(reader.read(messages.requestSalary()));
@@ -35,20 +34,31 @@ public class PaySlipGenerator {
         String startDate = reader.read(messages.requestPaymentStartDate());
         String endDate = reader.read(messages.requestPaymentEndDate());
         writer.write(messages.payslipGeneratedMessage());
+        employee = new EmployeeDetails(name, surname, salary, superRate, startDate, endDate);
+    }
 
-        writer.write("Name: " + name + " " + surname);
-        writer.write("Pay Period: " + startDate + " - " + endDate);
-        writer.write("Gross Income: " + grossIncome.getGrossIncome(salary));
-        writer.write("Income Tax: " + incomeTax.getIncomeTax(salary));
-        writer.write("Net Income: " + netIncome.getNetIncome(grossIncome.getGrossIncome(salary),
-                incomeTax.getIncomeTax(salary)));
-        writer.write("Super: " + superR.getSuperannuation(grossIncome.getGrossIncome(salary),
-                superRate) +
+
+    public void createPayslip(){
+        writer.write("Name: " + employee.getName() + " " + employee.getSurname());
+        writer.write("Pay Period: " + employee.getPayStartDate() + " - " + employee.getPayEndDate());
+        writer.write("Gross Income: " + grossIncome.getGrossIncome(employee.getAnnualSalary()));
+        writer.write("Income Tax: " + incomeTax.getIncomeTax(employee.getAnnualSalary()));
+        writer.write("Net Income: " + netIncome.getNetIncome(grossIncome.getGrossIncome(employee.getAnnualSalary()),
+                incomeTax.getIncomeTax(employee.getAnnualSalary())));
+        writer.write("Super: " + superR.getSuperannuation(grossIncome.getGrossIncome(employee.getAnnualSalary()),
+                employee.getSuperRate()) +
                 "\n");
 
-        writer.write(messages.thankyouMessage());
+    }
 
-        employee = new EmployeeDetails(name,surname, salary, superRate, startDate, endDate);
+
+    public void runPaySlip(){
+        writer.write(messages.welcomeMessage());
+
+        getEmployeeDetails();
+        createPayslip();
+
+        writer.write(messages.thankyouMessage());
 
     }
 }

@@ -18,29 +18,6 @@ public class EmployeeDetails {
         this.payEndDate = payEndDate;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setAnnualSalary(double annualSalary) {
-        this.annualSalary = annualSalary;
-    }
-
-    public void setSuperRate(float superRate) {
-        this.superRate = superRate;
-    }
-
-    public void setPayStartDate(String payStartDate) {
-        this.payStartDate = payStartDate;
-    }
-
-    public void setPayEndDate(String payEndDate) {
-        this.payEndDate = payEndDate;
-    }
 
     public String getName() {
         return name;
