@@ -86,10 +86,13 @@
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaySlipCalculatorEnd/calculator/IncomeTaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PaySlipCalculatorEnd/calculator/IncomeTaxCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaySlipCalculatorEnd/tax/TaxBands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PaySlipCalculatorEnd/tax/TaxBands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaySlipCalculatorEnd/tax/TaxBandsE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tax/TaxBands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tax/TaxBands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/misc.xml" beforeDir="false" />
@@ -116,8 +119,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="220">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="449">
               <caret line="50" selection-start-line="50" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,23 +141,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="493">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
@@ -160,7 +153,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/calculator/IncomeTaxCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/calculator/NetIncomeCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/calculator/GrossIncomeCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tax/TaxBands.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -170,30 +196,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tax/TaxBandsE.java">
+        <entry file="file://$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1652#1653#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java">
+        <entry file="file://$PROJECT_DIR$/test/calculator/SuperannuationCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="207">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -201,71 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Output/Messages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmployeeDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -276,9 +228,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -301,21 +253,25 @@
         <option value="$PROJECT_DIR$/src/EmployeeDetails.java" />
         <option value="$PROJECT_DIR$/test/calculator/GrossIncomeCalculatorTest.groovy" />
         <option value="$PROJECT_DIR$/test/calculator/GrossIncomeCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java" />
-        <option value="$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java" />
         <option value="$PROJECT_DIR$/src/tax/TaxBandPercentages.java" />
         <option value="$PROJECT_DIR$/src/PaySlipGenerator.java" />
         <option value="$PROJECT_DIR$/src/tax/TaxBandsE.java" />
-        <option value="$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/tax/TaxBands.java" />
+        <option value="$PROJECT_DIR$/src/tax/TaxBandEnums.java" />
+        <option value="$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java" />
+        <option value="$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java" />
+        <option value="$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java" />
+        <option value="$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java" />
+        <option value="$PROJECT_DIR$/test/calculator/IncomeTaxCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/test/calculator/SuperannuationCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/test/calculator/NetIncomeCalculatorTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1482" />
     <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -392,7 +348,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570657741045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570701372985" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -418,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SuperannuationCalculatorTest.getSuperannuation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PaySlipCalculatorEnd" />
@@ -445,8 +401,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncomeTaxCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaySlipCalculatorEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.IncomeTaxCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetIncomeCalculatorTest.getNetIncome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaySlipCalculatorEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.NetIncomeCalculatorTest" />
+      <option name="METHOD_NAME" value="getNetIncome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperannuationCalculatorTest.getSuperannuation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaySlipCalculatorEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.SuperannuationCalculatorTest" />
+      <option name="METHOD_NAME" value="getSuperannuation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuperannuationCalculatorTest.getSuperannuation" />
+        <item itemvalue="JUnit.NetIncomeCalculatorTest.getNetIncome" />
+        <item itemvalue="JUnit.IncomeTaxCalculatorTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.GrossIncomeCalculatorTest.putInAnnualIncome_ReturnsMonthlyIncome" />
       </list>
@@ -472,12 +478,21 @@
     <history-entry file="GrossIncomeCalculatorTest_putInAnnualIncome_ReturnsMonthlyIncome - 2019.10.09 at 12h 36m 46s.xml">
       <configuration name="GrossIncomeCalculatorTest.putInAnnualIncome_ReturnsMonthlyIncome" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IncomeTaxCalculatorTest - 2019.10.10 at 20h 49m 20s.xml">
+      <configuration name="IncomeTaxCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NetIncomeCalculatorTest_getNetIncome - 2019.10.10 at 20h 52m 34s.xml">
+      <configuration name="NetIncomeCalculatorTest.getNetIncome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuperannuationCalculatorTest_getSuperannuation - 2019.10.10 at 20h 55m 13s.xml">
+      <configuration name="SuperannuationCalculatorTest.getSuperannuation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="941" extended-state="6" />
+    <frame x="0" y="23" width="1482" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114774115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25138888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,12 +502,12 @@
       <window_info anchor="bottom" id="Messages" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20141342" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40282685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14605418" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25441697" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -615,40 +630,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/calculator/GrossIncomeCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tax/TaxBandEnums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tax/TaxBandsE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="-152">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1325#1326#0" expanded="true" />
             <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
             <element signature="e#1401#1402#0" expanded="true" />
             <element signature="e#1452#1453#0" expanded="true" />
             <element signature="e#1652#1653#0" expanded="true" />
@@ -659,15 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
+        <state relative-caret-position="220">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -676,22 +658,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/GrossIncomeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/PaySlipGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="449">
+          <caret line="50" selection-start-line="50" selection-end-line="51" />
           <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,6 +677,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/IncomeTaxCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/SuperannuationCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/NetIncomeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/calculator/NetIncomeCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/calculator/IncomeTaxCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/calculator/SuperannuationCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/calculator/GrossIncomeCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

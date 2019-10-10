@@ -2,8 +2,9 @@ package calculator;
 
 public class NetIncomeCalculator {
 
-    public double getNetIncome(double grossIncome, double incomeTax){
-        return grossIncome - incomeTax;
+    public int getNetIncome(double grossIncome, double incomeTax){
+        double netIncomeWithDecimal = grossIncome - incomeTax;
+        return (int)Math.round(netIncomeWithDecimal);
     }
 
 }
