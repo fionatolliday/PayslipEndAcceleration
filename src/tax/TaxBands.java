@@ -53,18 +53,18 @@ public class TaxBands {
 
     public double upperTaxBracket(double salary) {
         if (getTaxBand(salary) == TaxBandEnums.TAXBAND1) {
-            return TaxBandEnums.TAXBAND1.upperRange;
+            return 0;
         }
         if (getTaxBand(salary) == TaxBandEnums.TAXBAND2) {
-            return TaxBandEnums.TAXBAND2.upperRange;
+            return TaxBandEnums.TAXBAND1.upperRange;
         }
         if (getTaxBand(salary) == TaxBandEnums.TAXBAND3) {
-            return TaxBandEnums.TAXBAND1.upperRange;
+            return TaxBandEnums.TAXBAND2.upperRange;
         }
         if (getTaxBand(salary) == TaxBandEnums.TAXBAND4) {
-            return TaxBandEnums.TAXBAND4.upperRange;
+            return TaxBandEnums.TAXBAND3.upperRange;
         } else
-            return TaxBandEnums.TAXBAND1.upperRange;
+            return TaxBandEnums.TAXBAND4.upperRange;
     }
 
 }
